@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header  div img{
+    width: 100%;
+    height: 750px;
+}
+header  div img:nth-child(2){
+    position: absolute;
+    width: 80px;
+    height: 44px;
+    top: 50px;
+    left: 65px;
+}
+header div img:nth-child(3){
+    position: absolute;
+    top: 37px;
+    right: 49px;
+    width: 30px;
+    height: 30px;
+}
+header div h1{
+    position: absolute;
+    font-weight: 100;
+    top: 42px;
+    font-size: 16px;
+    right: 85px;
+    color: white;
+    font-family: 'Nunito';
+}
+header div div:nth-child(5){
+    position: absolute;
+    top: 290px;
+    left: 60px;
+    font-family: 'Nunito';
+    font-weight: 100;
+    color: white;
+    font-size: -webkit-xxx-large
+}
+header div div:nth-child(6){
+    position: absolute;
+    top: 31pc;
+    left: 28px;
+}
+header div div:nth-child(6) a{
+    padding: 17px 43px;
+    font-family: 'Nunito';
+    font-size: 16PX;
+    border: solid 2px white;
+    margin: 0px 31px;
+    color: #00BCD4;
+    border-radius: 3px;
+    text-decoration: none;
+}
+header div div:nth-child(7){
+    position: absolute;
+    top: 31pc;
+    left: 15pc;
+}
+header div div:nth-child(7) a{
+    padding: 17px 43px;
+    font-family: 'Nunito';
+    font-size: 16PX;
+    border: solid 2px white;
+    margin: 0px 31px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.active a{
+    background-color:white;
+    color: #00BCD4;
+}
+header div div:nth-child(7):hover a {
+    color: #00BCD4;
+    border: solid 2px #00BCD4;
+}
+
+
+section{
+    width: 100%;
+    height: 580px;
+}
+section nav{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    top: 0px;
+    text-align: center;
+}
+section nav p{
+    font-size: 23px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 75px;
+    font-family: 'Nunito';
+}
+
+section nav:nth-child(2) img{
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 400px;
+}
+section nav:nth-child(2) div:nth-child(2){
+    position: absolute;
+    background-color: #3d6181;
+    width: 50%;
+    height: 400px;
+    right: 0px;
+}
+section nav:nth-child(2) img:nth-child(3){
+    position: absolute;
+    width: 85px;
+    height: 81px;
+    top: 10pc;
+    left: 20pc;
+}
+section nav:nth-child(2) div:nth-child(2) h1{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    font-family: 'Nunito';
+    top: 56px;
+    font-weight: 200;
+}
+section nav:nth-child(2) div:nth-child(2) p:nth-child(2){
+    position: relative;
+    text-align: justify;
+    width: 32pc;
+    color: white;
+    font-size: 16px;
+    line-height: 2em;
+    font-family: 'Nunito';
+}
+section nav:nth-child(2) div:nth-child(2) p:nth-child(3){
+    position: absolute;
+    color: #6ad1d9;
+    font-size: 16px;
+    top: 15pc;
+    left: 120px;
+}
+.parrafo2 {
+    width: 100%;
+    height: 390px; 
+}
+.parrafo2 div{
+    width: 33.3%;
+    float: left;
+    
+}
+.parrafo2 div img{
+    position: relative;
+    top: 7pc;
+    left: 78px;
+    width: 100px;
+}
+.parrafo2 div h1{
+    position: relative;
+    left: 195px;
+    width: 179px;
+    font-weight: 500;
+    font-family: 'Nunito';
+}
+.parrafo2 div p{
+    position: relative;
+    left: 195px;
+    color: #8a99a6;
+    font-size: 16px;
+    top: 13px;
+    width: 16pc;
+    line-height: 1.7em;
+    font-family: 'Nunito';
+}
+.parrafo2 div a{
+    position: relative;
+    text-decoration: none;
+    left: 195px;
+    top: 2pc;
+    font-family: 'Nunito';
+    color: black;
+    font-weight: 50;
+    transition-duration: 0.5s;
+    font-size: 15px;
+}
+.parrafo2 div a:hover{
+    color:  #6ad1d9;
+}
+
+.parrafo3 {
+    width: 100%;
+    height: 1175px;
+    font-family: 'Nunito';
+    background: #f6f7f9;
+}
+.parrafo3 div img{
+    width: 100%;
+    height: 693px;
+}
+.parrafo3 img:nth-child(2){
+    position: absolute;
+    top: 111pc;
+    height: 770px;
+    left: 8pc;
+}
+.parrafo3 img:nth-child(3){
+    position: absolute;
+    width: 283px;
+    height: 507px;
+    top: 1907px;
+    left: 191px;
+}
+.parrafo3 div:nth-child(4){
+    position: absolute;
+    top: 1839px;
+    left: 37pc;
+    width: 630px;
+    font-family: 'Nunito';
+    color: white;
+}
+.parrafo3 div:nth-child(4) h1{
+    line-height: 3em;
+    position: relative;
+    bottom: 10px;
+    font-weight: 100;
+}
+.parrafo3 div:nth-child(4) p{
+    font-size: 15.5px;
+    line-height: 2em;
+}
+.parrafo3 div:nth-child(4) img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 14pc;
+    left: 0px;
+}
+.parrafo3 div:nth-child(4) p:nth-child(4){
+    position: absolute;
+    top: 228px;
+    width: 395px;
+    font-size: 14px;
+    left: 105px;
+    font-style: italic;
+}
+.parrafo3 div:nth-child(4) img:nth-child(5){
+    position: absolute;
+    width: 80px;
+    top: 335px;
+    left: 111px;
+    height: 44px;
+}
+.parrafo3 div:nth-child(4) a:nth-child(6){
+    position: absolute;
+    top: 418px;
+    text-decoration: none;
+    border: solid 2px white;
+    color: white;
+    padding: 20px 50px;
+    transition-duration: 1s;
+    left: 1pc;
+}
+.parrafo3 div:nth-child(4) a:nth-child(6):hover{
+    color:#6ad1d9;
+    border: solid 2px #6ad1d9; 
+}
+.parrafo3  h1:nth-child(5){
+    position: absolute;
+    top: 162pc;
+    left: 80px;
+    font-weight: 300;
+}
+.parrafo3  p:nth-child(6){
+    position: absolute;
+    top: 165pc;
+    left: 80px;
+    color: #8a99a6;
+    width: 78pc;
+}
+.parrafo3  p:nth-child(7){
+    position: absolute;
+    top: 170pc;
+    left: 80px;
+    color:#6ad1d9
+}
+.parrafo4  div{
+    width: 25%;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+
+}
+.parrafo4  div img{
+    position: absolute;
+    width: 25%;
+    height: 200px;
+    float: left;
+    transition-duration: 1S;
+    overflow: hidden;
+}
+.parrafo4  div:hover img{
+    transform: scale(1.1);
+}
+.parrafo4  div img:nth-child(2){
+    position: relative;
+    height: 100px;
+    top: 50px;
+    left: 117px;
+    width: 100px;
+    transform: scale(0);
+    transition-duration: 1s;
+
+}
+.parrafo4  div:hover img:nth-child(2){
+    transform: scale(1);
+
+}
+
+
+
